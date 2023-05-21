@@ -151,7 +151,8 @@ const UserCard = () => {
           ))}
         </UserCardContainer>
         <ButtonContainer>
-          {currentIndex > 0 && <StyledBackLink to="/">Go Home</StyledBackLink>}
+          {currentIndex > 0 &&
+             <ButtonLoadMore onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}>Go to Start</ButtonLoadMore>}
           {hasMore && (
             <ButtonLoadMore onClick={loadMoreCards}>Load More</ButtonLoadMore>
           )}
