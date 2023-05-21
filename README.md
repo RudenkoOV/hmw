@@ -16,3 +16,5 @@ Create a user in Mockapi with the following fields: id, user, tweets, followers,
 Avatar images must be specified with separate urls in the “avatar” property. You can choose them yourself.
 There should be from 12 users with different values (at your discretion) in the database. Make pagination. One pagination page should display at least 3 tweets, the rest should be loaded when you click Load More
 The rest of the requirements are similar to the technical task described above.
+
+[maquette](https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1)
