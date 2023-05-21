@@ -20,6 +20,9 @@ border-radius: 10px;
         scale: 1.2;
         rotate: 360deg;
         background-color: aquamarine;
+        > a{
+          color:rgb(55, 55, 55);
+        }
 }
 > a{
     margin-left: 20px;
@@ -28,6 +31,7 @@ border-radius: 10px;
     text-transform: uppercase;
     cursor: pointer;
     color: rgb(235, 216, 255);
+    
 }  
 `
 export const StyledLink = styled(Link)`
