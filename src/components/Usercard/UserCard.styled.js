@@ -1,20 +1,37 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
-  export const Container = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 60px;
   `;
 
 export const Header = styled.div`
-height: 50px;
-text-align: left;
-margin-bottom: 10px;
-  
+border-radius: 10px;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all, linear, 500ms;
+  &:hover{
+        scale: 1.2;
+        rotate: 360deg;
+        background-color: aquamarine;
+}
+> a{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(235, 216, 255);
+}  
 `
 export const StyledLink = styled(Link)`
-  color: green;
+  color: #5b4985;
   text-decoration: none;
   font-size: 24px;
   &:hover{
@@ -27,7 +44,7 @@ export const UserCardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   justify-content: center;
   max-width: 1200px;
 `;
@@ -192,6 +209,7 @@ line-height: 22px;
 text-transform: uppercase;
 color: #373737;
 cursor: pointer;
+transition: scale, linear, 300ms;
 &:hover{
     background-color: aquamarine;
     scale: 1.1;
@@ -215,10 +233,10 @@ text-decoration: none;
 color: #373737;
 cursor: pointer;
 background-color:buttonface;
+transition: scale, linear, 300ms;
 &:hover{
     background-color: aquamarine;
         scale: 1.1;
-
 }
 `
 export const ButtonContainer = styled.div`
