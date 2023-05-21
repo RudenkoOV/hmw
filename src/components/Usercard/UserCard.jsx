@@ -16,7 +16,6 @@ import {
   Logo,
   Picture,
   StyledLink,
-  StyledBackLink,
   TextButton,
   Tweets,
   UserBox,
